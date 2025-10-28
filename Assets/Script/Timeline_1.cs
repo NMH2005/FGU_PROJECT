@@ -9,8 +9,7 @@ public class Script1_Bar : MonoBehaviour
     public Animator wifeAnimator;
     public Animator gangsterAnimator;
 
-    public AudioSource jazzMusic;
-    public AudioSource glassSound;
+    //public AudioSource jazzMusic;
     public AudioSource dialogueSound;
 
     public float speed = 1.5f;
@@ -18,7 +17,7 @@ public class Script1_Bar : MonoBehaviour
 
     void Start()
     {
-        jazzMusic.Play(); // Nhạc bar nền
+        //jazzMusic.Play(); // Nhạc bar nền
     }
 
     void Update()
@@ -49,7 +48,6 @@ public class Script1_Bar : MonoBehaviour
         else if (timer >= 9f && timer < 12f)
         {
             gangsterAnimator.Play("AngryHitTable");
-            glassSound.Play();
             PlayDialogue("Tao nói là rượu, mày không hiểu tiếng người à?");
         }
 
@@ -92,7 +90,7 @@ public class Script1_Bar : MonoBehaviour
         // 33–36s: Kết – Căng thẳng, im lặng
         else if (timer >= 33f && timer < 36f)
         {
-            jazzMusic.volume = Mathf.Lerp(jazzMusic.volume, 0.2f, Time.deltaTime);
+            //jazzMusic.volume = Mathf.Lerp(jazzMusic.volume, 0.2f, Time.deltaTime);
             mainAnimator.Play("Idle_Tense");
             wifeAnimator.Play("StepBack");
         }
