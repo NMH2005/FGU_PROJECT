@@ -269,7 +269,7 @@ Transform:
   m_GameObject: {fileID: 428791307}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.27505124, y: 0.1371007, z: 0}
+  m_LocalPosition: {x: -0.2563255, y: 0.12985493, z: 0}
   m_LocalScale: {x: 0.8571428, y: 0.8571428, z: 0.8571428}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 735926500}
   - component: {fileID: 735926502}
   - component: {fileID: 735926501}
+  - component: {fileID: 735926503}
   m_Layer: 5
   m_Name: BubbleChat
   m_TagString: Untagged
@@ -478,6 +479,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735926499}
   m_CullTransparentMesh: 1
+--- !u!114 &735926503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735926499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1a2e34bfb131b44baba68325bb2ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 5, z: 0}
 --- !u!1 &848885483
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +503,7 @@ GameObject:
   - component: {fileID: 848885486}
   - component: {fileID: 848885485}
   - component: {fileID: 848885484}
+  - component: {fileID: 848885487}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -570,6 +585,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848885487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848885483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &879456974
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +927,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1470291024
 RectTransform:
@@ -972,6 +1031,12 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e622b08bf6b57d949b5520a5ef9860bd, type: 2}
     - {fileID: 11400000, guid: eb888805a94d99641a98c4a742446059, type: 2}
     - {fileID: 11400000, guid: cbef81ab258999144bf61d4dd287a434, type: 2}
+    - {fileID: 11400000, guid: 852008de57c51ec4d835dce66cae3828, type: 2}
+    - {fileID: 11400000, guid: c3dd655249637d0498805c08151695cb, type: 2}
+    - {fileID: 11400000, guid: 6d5733d689c441c43b4748ee8c01d1e2, type: 2}
+    - {fileID: 11400000, guid: e3cedf9a846a42b41955204a227140ae, type: 2}
+    - {fileID: 11400000, guid: 3237bb3b1fbe4b04a8c15804a96b65c8, type: 2}
+    - {fileID: 11400000, guid: 9ca8718b2201d3a498d97884a3c264ba, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1034,6 +1099,95 @@ MonoBehaviour:
               l\xE0 n\u01A1i em v\u1ED1n d\u0129 thu\u1ED9c v\u1EC1 v\u1EADy."
             m_BoolArgument: 0
           m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1513150179}
+          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+          m_MethodName: ShowDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "V\u1EADy th\xEC \u0111i l\xEAn t\xECm ki\u1EBFm th\u1EED
+              xem c\xF3 g\xEC v\u1EADy"
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1513150179}
+          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+          m_MethodName: ShowDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "\u0110\xF3 l\xE0\u2026 c\xF4 \u1EA5y\u2026 c\u01A1
+              th\u1EC3 c\u0169 c\u1EE7a em?"
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1513150179}
+          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+          m_MethodName: ShowDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "\u0110\xE2y l\xE0 c\u01A1 th\u1EC3 c\u1EE7a em, nh\u01B0ng
+              linh h\u1ED3n kh\xF4ng th\u1EC3 t\u1EF1 tr\u1EDF l\u1EA1i \u0111\u01B0\u1EE3c"
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1513150179}
+          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+          m_MethodName: ShowDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Anh s\u1EBD gi\xFAp em. Anh s\u1EBD \u0111\u01B0a
+              em quay tr\u1EDF l\u1EA1i, d\xF9 ph\u1EA3i \u0111\xE1nh \u0111\u1ED5i
+              t\u1EA5t c\u1EA3."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1513150179}
+          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+          m_MethodName: SetSpeakerToMain
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1513150179}
+          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+          m_MethodName: SetSpeakerToWife
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1513150178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,7 +1214,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1161059620}
-  bubbleChat: {fileID: 735926499}
+  bubbleFollow: {fileID: 735926503}
+  main: {fileID: 1682750953}
+  wifeSoul: {fileID: 428791309}
 --- !u!1 &1682750950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,60 +1317,11 @@ Transform:
   m_GameObject: {fileID: 1682750950}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.26, y: -2.52, z: 0}
+  m_LocalPosition: {x: -5.19, y: -2.52, z: 0}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 428791309}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2096417786
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2096417788}
-  - component: {fileID: 2096417787}
-  m_Layer: 0
-  m_Name: TimelineController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &2096417787
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096417786}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 2d1e2d37ce5556d4fb26dd807dea42a4, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings: []
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &2096417788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096417786}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -1223,7 +1330,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 848885486}
   - {fileID: 879456976}
-  - {fileID: 2096417788}
   - {fileID: 1682750953}
   - {fileID: 697056587}
   - {fileID: 1513150176}
