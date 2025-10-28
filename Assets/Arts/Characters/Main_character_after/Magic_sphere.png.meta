@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Magic_sphere_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece4fed08374dd64398a48788e4098eb
+      internalID: -1026196919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9a2396cea68234b9ed48c44ad4d592
+      internalID: 1964584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba7661e8b91c5949a06b63f1111b4fb
+      internalID: 491461075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d91d14455dd05340bbc81cb7371556b
+      internalID: -266286697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d10c4c9888a5944ae24f2a98e7ab08
+      internalID: 1804909039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_5
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 0
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3be192c71cdf43bdcc33bf561a6c6
+      internalID: -172919957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_6
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 0
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d60d647a3aabfc46b8bc764cbaac660
+      internalID: 1781758912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_7
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f42ed993275d45bfca9d93391bcfb
+      internalID: -2014802921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65e34c444115fa458c272b31bafbc0c
+      internalID: 706240904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_9
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac46a941c9a2b14698cc897fecd5d87
+      internalID: 1338182651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_11
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 0
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592c1ad085e303f46a33124f768df6c7
+      internalID: -1622829424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_13
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f420b6313cd2c4bbc4230c1f654fc2
+      internalID: 738579833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_14
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 0
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9146a13bee3ad43479bb95c3ea10d8e6
+      internalID: -919837834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_15
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 0
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae8a1c5fe9a8354c861b661b40bdcab
+      internalID: -2093269967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_16
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 0
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84460d640373b04b93435acc335b9b1
+      internalID: 184830008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_sphere_17
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 0
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0844e6e44ea68948a9c7d9cfbd8f927
+      internalID: 148927441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +442,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magic_sphere_0: -1026196919
+      Magic_sphere_1: 1964584
+      Magic_sphere_10: 998544531
+      Magic_sphere_11: -1622829424
+      Magic_sphere_12: 1505180455
+      Magic_sphere_13: 738579833
+      Magic_sphere_14: -919837834
+      Magic_sphere_15: -2093269967
+      Magic_sphere_16: 184830008
+      Magic_sphere_17: 148927441
+      Magic_sphere_2: 491461075
+      Magic_sphere_3: -266286697
+      Magic_sphere_4: 1804909039
+      Magic_sphere_5: -172919957
+      Magic_sphere_6: 1781758912
+      Magic_sphere_7: -2014802921
+      Magic_sphere_8: 706240904
+      Magic_sphere_9: 1338182651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
