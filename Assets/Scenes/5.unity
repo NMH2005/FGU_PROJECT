@@ -248,11 +248,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Size.x
-      value: 0.45
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Size.y
-      value: 0.65
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 5913810387891417729, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Name
@@ -296,7 +296,7 @@ Animator:
   m_GameObject: {fileID: 315828449}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d11af306b59c9fc48aa297d9ed9bcba3, type: 2}
+  m_Controller: {fileID: 9100000, guid: ee77303535ce44648ab1c0d0021dfa31, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
