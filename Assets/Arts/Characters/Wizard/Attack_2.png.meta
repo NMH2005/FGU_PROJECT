@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6109a70630b2b3b49bb9c98820baecb3
+guid: 0085b13b60815cd40992dc92612603f0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,196 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Attack_2_7
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 0
-        width: 103
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50a219732206e214ebd2d870807827a7
-      internalID: -1959530003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_8
-      rect:
-        serializedVersion: 2
-        x: 1051
-        y: 0
-        width: 97
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68cb25406039d534996a469d767ccb30
-      internalID: 1769958682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_0
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 0
-        width: 38
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3510c4b37358f24e8aa3840cd2697d3
-      internalID: 1459674166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_1
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 0
-        width: 40
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83e1c020dc2fca84a8f0b441e694ef01
-      internalID: -568358991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_2
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 1
-        width: 44
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68ea0084ed6bba146a9f9b9da806fd2b
-      internalID: 1175311476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_3
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 0
-        width: 55
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3d2d6d42558fba46aec9b7dd1d6595b
-      internalID: 1873246664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_4
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 0
-        width: 59
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d016b298204c93c41b9619392d4d72c6
-      internalID: 1778943060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_5
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 0
-        width: 65
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b9c2bae1a52e6a48be74cebe620e4a0
-      internalID: 737657724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_2_6
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 0
-        width: 92
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd5a925114e2ffe47bf421fd7016bcbc
-      internalID: -2128765535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -295,18 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Attack_2_0: 1459674166
-      Attack_2_1: -568358991
-      Attack_2_11: -657241782
-      Attack_2_12: 1482837683
-      Attack_2_2: 1175311476
-      Attack_2_3: 1873246664
-      Attack_2_4: 1778943060
-      Attack_2_5: 737657724
-      Attack_2_6: -2128765535
-      Attack_2_7: -1959530003
-      Attack_2_8: 1769958682
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
