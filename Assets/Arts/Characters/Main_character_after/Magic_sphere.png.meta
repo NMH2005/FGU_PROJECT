@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 660c2539f1f38d847b3b56d35e2152da
+guid: 41118cb9f3baf5d44939aca526d6d8f8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece4fed08374dd64398a48788e4098eb
-      internalID: -1026196919
+      spriteID: e67a3df2ec3beea4aa94938128cd2556
+      internalID: -1055640536
       vertices: []
       indices: 
       edges: []
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be9a2396cea68234b9ed48c44ad4d592
-      internalID: 1964584
+      spriteID: 54675b58ce2e3f5428ff854be8bb5282
+      internalID: -1274993279
       vertices: []
       indices: 
       edges: []
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba7661e8b91c5949a06b63f1111b4fb
-      internalID: 491461075
+      spriteID: 77b2b580b220ba14790ea4ffadcfdf9b
+      internalID: 1426668561
       vertices: []
       indices: 
       edges: []
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d91d14455dd05340bbc81cb7371556b
-      internalID: -266286697
+      spriteID: 8b448292806c7cb47a69abc4b0cb6c0c
+      internalID: -2066324288
       vertices: []
       indices: 
       edges: []
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73d10c4c9888a5944ae24f2a98e7ab08
-      internalID: 1804909039
+      spriteID: 0c53840323e494946a2135a7d38cacbc
+      internalID: 797149889
       vertices: []
       indices: 
       edges: []
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51d3be192c71cdf43bdcc33bf561a6c6
-      internalID: -172919957
+      spriteID: 04d397f5dcff4cd4fb6ec7965e4d9eb6
+      internalID: -81655301
       vertices: []
       indices: 
       edges: []
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d60d647a3aabfc46b8bc764cbaac660
-      internalID: 1781758912
+      spriteID: c4dc6ff5915a63c49834434f96976f2e
+      internalID: -1792189951
       vertices: []
       indices: 
       edges: []
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40f42ed993275d45bfca9d93391bcfb
-      internalID: -2014802921
+      spriteID: 337fc479b2acc2b469beffac8a33dcb9
+      internalID: 1085493114
       vertices: []
       indices: 
       edges: []
@@ -279,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65e34c444115fa458c272b31bafbc0c
-      internalID: 706240904
+      spriteID: 4fc9d769af3146e4d90885ff77b3cedb
+      internalID: 1316988200
       vertices: []
       indices: 
       edges: []
@@ -289,9 +289,9 @@ TextureImporter:
       name: Magic_sphere_9
       rect:
         serializedVersion: 2
-        x: 1189
+        x: 1188
         y: 1
-        width: 62
+        width: 63
         height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -300,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ac46a941c9a2b14698cc897fecd5d87
-      internalID: 1338182651
+      spriteID: 8d579d96dda472a4987dfece9118a2ce
+      internalID: 1817067985
       vertices: []
       indices: 
       edges: []
@@ -321,8 +321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 592c1ad085e303f46a33124f768df6c7
-      internalID: -1622829424
+      spriteID: 57c29a9d0ceb1ee49be41237ec747461
+      internalID: 400132410
       vertices: []
       indices: 
       edges: []
@@ -342,8 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3f420b6313cd2c4bbc4230c1f654fc2
-      internalID: 738579833
+      spriteID: 7185728822f98f24bb2933e5322acc88
+      internalID: -1263684779
       vertices: []
       indices: 
       edges: []
@@ -363,8 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9146a13bee3ad43479bb95c3ea10d8e6
-      internalID: -919837834
+      spriteID: c84c03fdeaea1bb409a15eaaf28b8912
+      internalID: -936754179
       vertices: []
       indices: 
       edges: []
@@ -384,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dae8a1c5fe9a8354c861b661b40bdcab
-      internalID: -2093269967
+      spriteID: e0214026b7c02c94dabc1d0bdaa99ff8
+      internalID: -1436703015
       vertices: []
       indices: 
       edges: []
@@ -405,8 +405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b84460d640373b04b93435acc335b9b1
-      internalID: 184830008
+      spriteID: 5f727ab91f44ed749927a4db74714493
+      internalID: -1410919934
       vertices: []
       indices: 
       edges: []
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0844e6e44ea68948a9c7d9cfbd8f927
-      internalID: 148927441
+      spriteID: b5377c9535f4ed949baa52e0ef7cf7a1
+      internalID: -653748897
       vertices: []
       indices: 
       edges: []
@@ -443,24 +443,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Magic_sphere_0: -1026196919
-      Magic_sphere_1: 1964584
-      Magic_sphere_10: 998544531
-      Magic_sphere_11: -1622829424
-      Magic_sphere_12: 1505180455
-      Magic_sphere_13: 738579833
-      Magic_sphere_14: -919837834
-      Magic_sphere_15: -2093269967
-      Magic_sphere_16: 184830008
-      Magic_sphere_17: 148927441
-      Magic_sphere_2: 491461075
-      Magic_sphere_3: -266286697
-      Magic_sphere_4: 1804909039
-      Magic_sphere_5: -172919957
-      Magic_sphere_6: 1781758912
-      Magic_sphere_7: -2014802921
-      Magic_sphere_8: 706240904
-      Magic_sphere_9: 1338182651
+      Magic_sphere_0: -1055640536
+      Magic_sphere_1: -1274993279
+      Magic_sphere_10: -626881747
+      Magic_sphere_11: 400132410
+      Magic_sphere_12: -603300103
+      Magic_sphere_13: -1263684779
+      Magic_sphere_14: -936754179
+      Magic_sphere_15: -1436703015
+      Magic_sphere_16: -1410919934
+      Magic_sphere_17: -653748897
+      Magic_sphere_2: 1426668561
+      Magic_sphere_3: -2066324288
+      Magic_sphere_4: 797149889
+      Magic_sphere_5: -81655301
+      Magic_sphere_6: -1792189951
+      Magic_sphere_7: 1085493114
+      Magic_sphere_8: 1316988200
+      Magic_sphere_9: 1817067985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
