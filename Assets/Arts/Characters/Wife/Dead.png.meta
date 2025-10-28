@@ -95,7 +95,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-
     sprites:
     - serializedVersion: 2
       name: Dead_0
@@ -112,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6005ae91cedf8954d8b22cb9cfccd5b7
-      internalID: 1079288631
+      spriteID: 703d3193e7a2f754f989014f3069279d
+      internalID: -1865656475
       vertices: []
       indices: 
       edges: []
@@ -133,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1259b417aada147a5b179dca63ca5b
-      internalID: -28325909
+      spriteID: 3bd73b5e5c8d5b2448d2a1b035da5d85
+      internalID: 1846440069
       vertices: []
       indices: 
       edges: []
@@ -154,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1572f8b818fc3944e81f4daafbc95c89
-      internalID: 1364600261
+      spriteID: 950f1421977b406499a7451c47cb53a3
+      internalID: 931659045
       vertices: []
       indices: 
       edges: []
@@ -175,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1290c9b92ad4df84f893752a0203c152
-      internalID: 323854588
+      spriteID: e2515138b9c0c824fbb778c4844d05fb
+      internalID: -1467915498
       vertices: []
       indices: 
       edges: []
@@ -196,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b242a03fa91caf54db7f2a05fec63758
-      internalID: -1926891533
+      spriteID: 5e6d0fdb0d454b344a34d45d79c868e9
+      internalID: 2126228306
       vertices: []
       indices: 
       edges: []
@@ -205,20 +204,19 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: f4f2772702ec7784d850207c7c615df8
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-
     nameFileIdTable:
-      Dead_0: 1079288631
-      Dead_1: -28325909
-      Dead_2: 1364600261
-      Dead_3: 323854588
-      Dead_4: -1926891533
+      Dead_0: -1865656475
+      Dead_1: 1846440069
+      Dead_2: 931659045
+      Dead_3: -1467915498
+      Dead_4: 2126228306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
