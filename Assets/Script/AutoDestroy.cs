@@ -4,6 +4,6 @@ public class FX_AutoDestroy : MonoBehaviour
 {
     public void DestroySelf()
     {
-        Destroy(gameObject);
+        DestroyImmediate(gameObject);
     }
 }
