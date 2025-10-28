@@ -144,8 +144,8 @@ TextureImporter:
         serializedVersion: 2
         x: 295
         y: 0
-        width: 47
-        height: 61
+        width: 68
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,33 +160,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_3
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 48
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da2ddbd711dd21349ac1a73f7bab6745
-      internalID: -1787917910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Dead_4
       rect:
         serializedVersion: 2
         x: 424
         y: 0
-        width: 59
+        width: 74
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -197,27 +176,6 @@ TextureImporter:
       bones: []
       spriteID: 05817f8b88cc6594dab318b27c8e4cbf
       internalID: -1621487530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dead_5
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 18
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12f3a9b0ccedc4a4b9b72c004a1c4d66
-      internalID: 1327822938
       vertices: []
       indices: 
       edges: []
@@ -239,27 +197,6 @@ TextureImporter:
       bones: []
       spriteID: 45988151d770b52448132086502d4a3f
       internalID: 503157736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dead_7
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 0
-        width: 13
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 286b1196e8e2d7145a8a25ca94257f5e
-      internalID: -241092636
       vertices: []
       indices: 
       edges: []
