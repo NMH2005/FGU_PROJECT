@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Size.x
-      value: 0.45
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Size.y
@@ -614,67 +614,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 427407615}
   m_SourcePrefab: {fileID: 100100000, guid: 82c7e90cdc6d77e4a8e8d465941dbbf0, type: 3}
---- !u!1 &701872801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 701872804}
-  - component: {fileID: 701872803}
-  - component: {fileID: 701872802}
-  m_Layer: 0
-  m_Name: signal_timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &701872802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701872801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals: []
-    m_Events: []
---- !u!114 &701872803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701872801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfb4534a693b6a842bcd94321bc874e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: 
---- !u!4 &701872804
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701872801}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3359395, y: 0.21274213, z: -0.05255342}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &826348541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8135246292541662950, guid: 326173f3ea0060a489371e7f597d9d8a, type: 3}
@@ -1042,6 +981,7 @@ GameObject:
   - component: {fileID: 1985110212}
   - component: {fileID: 1985110211}
   - component: {fileID: 1985110214}
+  - component: {fileID: 1985110215}
   m_Layer: 0
   m_Name: Scene5_timeline
   m_TagString: Untagged
@@ -1079,7 +1019,7 @@ PlayableDirector:
   - key: {fileID: 6852399992879767201, guid: 0a557f2c9e1fec541ad564db94eec051, type: 2}
     value: {fileID: 826348548}
   - key: {fileID: 7679827352149008624, guid: 0a557f2c9e1fec541ad564db94eec051, type: 2}
-    value: {fileID: 701872802}
+    value: {fileID: 1985110214}
   m_ExposedReferences:
     m_References: []
 --- !u!328 &1985110212
@@ -1147,14 +1087,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: e1a220e03e7517e49a7b208d6e530504, type: 2}
+    - {fileID: 11400000, guid: 66899ad17bba1bd488767014378e3cd1, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
-          m_MethodName: ShowLine
-          m_Mode: 5
+        - m_Target: {fileID: 1985110215}
+          m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+          m_MethodName: LoadNextScene
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1163,6 +1103,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1985110215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985110210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb4534a693b6a842bcd94321bc874e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: 6
 --- !u!1001 &2114591193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1231,4 +1184,3 @@ SceneRoots:
   - {fileID: 540906515}
   - {fileID: 1985110213}
   - {fileID: 2114591193}
-  - {fileID: 701872804}

@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 49040631}
   - component: {fileID: 49040630}
   - component: {fileID: 49040632}
+  - component: {fileID: 49040633}
   m_Layer: 0
   m_Name: Timeline_scene_6
   m_TagString: Untagged
@@ -172,7 +173,7 @@ PlayableDirector:
   - key: {fileID: 5706966690295628850, guid: f1948d4164db8834dac41b03326c787b, type: 2}
     value: {fileID: 1038262302}
   - key: {fileID: -1043337994762782018, guid: f1948d4164db8834dac41b03326c787b, type: 2}
-    value: {fileID: 370017820}
+    value: {fileID: 49040632}
   - key: {fileID: 2554662228711487854, guid: f1948d4164db8834dac41b03326c787b, type: 2}
     value: {fileID: 270274815}
   - key: {fileID: 7900579039889390182, guid: f1948d4164db8834dac41b03326c787b, type: 2}
@@ -218,7 +219,7 @@ MonoBehaviour:
     m_Events:
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 370017821}
+        - m_Target: {fileID: 49040633}
           m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
           m_MethodName: LoadNextScene
           m_Mode: 1
@@ -230,6 +231,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &49040633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49040629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb4534a693b6a842bcd94321bc874e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: 7
 --- !u!1 &70156700 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4996625553728651117, guid: 82c7e90cdc6d77e4a8e8d465941dbbf0, type: 3}
@@ -410,11 +424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Size.x
-      value: 0.4
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_Size.y
-      value: 0.65
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 1633577221123413501, guid: 5d02c298ebcc1ed4ca86fcbd425e87b4, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -629,82 +643,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4d6a4df7bfe0374c932309935a687b8, type: 3}
---- !u!1 &370017819
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 370017822}
-  - component: {fileID: 370017821}
-  - component: {fileID: 370017820}
-  m_Layer: 0
-  m_Name: signal_timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &370017820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370017819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: bc23c2151973a864aa5a269398cd5844, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 370017821}
-          m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
-          m_MethodName: LoadNextScene
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &370017821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370017819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfb4534a693b6a842bcd94321bc874e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: 
---- !u!4 &370017822
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370017819}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2750914, y: 0.17331539, z: -0.05111411}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680759045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,4 +1766,3 @@ SceneRoots:
   - {fileID: 304662740}
   - {fileID: 1402441060}
   - {fileID: 1711328232}
-  - {fileID: 370017822}
